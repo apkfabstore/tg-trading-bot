@@ -9,10 +9,11 @@ const crypto = require("crypto");
 require("dotenv").config();
 
 const requiredEnvVars = [
-  "TELEGRAM_BOT_TOKEN",
-  "COINBASE_API_KEY_NAME",
-  "COINBASE_API_KEY_SECRET",
-  "ENCRYPTION_KEY",
+  "8154785417:AAEvbrhd__jqqqvAmikAULdgU0_vH4nsGNI",
+  "Nulledkey",
+  "KEY-----\nMHcCAQEEIEMR62xMBef4GOMhoXTqteKsJHWZh7wTMI7ltKWvrBhwoAoGCCqGSM49\nAwEHoUQDQgAE9Qx74AVVvfunf4IWF8RcRgBN4rfJvXyQbh1c9yxkDrkfo0TZ+Xjc\nbaPRryBcsd7dA2EGDD/eu/W95t6axFi6DQ==\n-----END EC PRIVATE KEY-----\n"
+}",
+  "9d14f53d-bc9a-4e9d-9522-c2bdc8aaf345",
 ];
 
 requiredEnvVars.forEach((env) => {
